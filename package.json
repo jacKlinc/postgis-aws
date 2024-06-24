@@ -1,5 +1,5 @@
 {
-  "name": "sst-api-ts",
+  "name": "postgis-aws",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -12,11 +12,11 @@
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
-    "sst": "^2.41.4",
+    "@tsconfig/node18": "^18.2.4",
     "aws-cdk-lib": "2.132.1",
     "constructs": "10.3.0",
-    "typescript": "^5.4.5",
-    "@tsconfig/node18": "^18.2.4"
+    "sst": "^3.0.33",
+    "typescript": "^5.4.5"
   },
   "workspaces": [
     "packages/*"
